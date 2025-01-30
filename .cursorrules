@@ -1,18 +1,54 @@
 Directory structure:
 └── finesssee-tmc/
     ├── README.md
+    ├── components.json
     ├── eslint.config.mjs
     ├── next.config.ts
     ├── package.json
     ├── postcss.config.mjs
     ├── tailwind.config.ts
     ├── tsconfig.json
+    ├── .cursorrules
     ├── public/
     └── src/
-        └── app/
-            ├── globals.css
-            ├── layout.tsx
-            └── page.tsx
+        ├── app/
+        │   ├── globals.css
+        │   ├── layout.tsx
+        │   └── page.tsx
+        ├── components/
+        │   ├── CalendarView.tsx
+        │   ├── CategoryForm.tsx
+        │   ├── TaskEditForm.tsx
+        │   ├── TaskForm.tsx
+        │   ├── TaskList.tsx
+        │   ├── TaskTableView.tsx
+        │   └── ui/
+        │       ├── animated-button.tsx
+        │       ├── badge.tsx
+        │       ├── button.tsx
+        │       ├── calendar.tsx
+        │       ├── card.tsx
+        │       ├── checkbox.tsx
+        │       ├── dialog.tsx
+        │       ├── form.tsx
+        │       ├── input.tsx
+        │       ├── label.tsx
+        │       ├── pagination.tsx
+        │       ├── popover.tsx
+        │       ├── select.tsx
+        │       ├── table.tsx
+        │       ├── tabs.tsx
+        │       └── textarea.tsx
+        ├── hooks/
+        │   ├── use-pagination.ts
+        │   └── useAutoRefresh.ts
+        ├── lib/
+        │   ├── events.ts
+        │   ├── storage.ts
+        │   └── utils.ts
+        └── types/
+            └── task.ts
+
 
 The command for shadcn/ui has been updated. The CLI tool name has changed from shadcn-ui to shadcn17. Here are the current commands to use:
 Installation
