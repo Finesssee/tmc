@@ -14,11 +14,11 @@ export default function Home() {
     <div className="relative min-h-screen bg-background">
       <FlickeringGrid
         className="fixed inset-0 z-0"
-        squareSize={4}
-        gridGap={6}
-        color="#6B7280"
-        maxOpacity={0.3}
-        flickerChance={0.1}
+        squareSize={2}
+        gridGap={12}
+        color="#9CA3AF"
+        maxOpacity={0.15}
+        flickerChance={0.05}
       />
       <div className="relative z-10">
         <div className="container mx-auto py-8 px-4">
