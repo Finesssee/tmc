@@ -1,0 +1,23 @@
+Directory structure:
+└── finesssee-tmc/
+    ├── README.md
+    ├── eslint.config.mjs
+    ├── next.config.ts
+    ├── package.json
+    ├── postcss.config.mjs
+    ├── tailwind.config.ts
+    ├── tsconfig.json
+    ├── public/
+    └── src/
+        └── app/
+            ├── globals.css
+            ├── layout.tsx
+            └── page.tsx
+
+The command for shadcn/ui has been updated. The CLI tool name has changed from shadcn-ui to shadcn17. Here are the current commands to use:
+Installation
+bash
+npx shadcn@latest init
+Adding Components
+bash
+npx shadcn@latest add <component-name>
